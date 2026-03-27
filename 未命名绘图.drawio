@@ -22,7 +22,7 @@
         <mxCell id="xyFB7iPGODjObc33V6Cf-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
           <mxGeometry height="232" width="331" x="382" y="125" as="geometry" />
         </mxCell>
-        <mxCell id="xyFB7iPGODjObc33V6Cf-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="待处理&lt;div&gt;&lt;font style=&quot;color: rgb(0, 76, 153);&quot;&gt;ASSIGN&lt;/font&gt;:&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 102, 0), rgb(255, 255, 255));&quot;&gt;PENDING&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="xyFB7iPGODjObc33V6Cf-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="待处理&lt;div&gt;&lt;font color=&quot;#004c99&quot;&gt;DISPOSE&lt;/font&gt;:&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 102, 0), rgb(255, 255, 255));&quot;&gt;PENDING&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="164" width="127" x="403" y="154" as="geometry" />
         </mxCell>
         <mxCell id="xyFB7iPGODjObc33V6Cf-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="待修改&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 76, 153), rgb(255, 255, 255));&quot;&gt;DISPOSE&lt;/font&gt;&lt;/span&gt;:&lt;font style=&quot;color: rgb(0, 102, 0);&quot;&gt;MODIFY&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
@@ -129,16 +129,19 @@
           <mxGeometry height="26" width="40" x="921" y="434" as="geometry" />
         </mxCell>
         <mxCell id="xyFB7iPGODjObc33V6Cf-102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
-          <mxGeometry height="192" width="292" x="463" y="541" as="geometry" />
+          <mxGeometry height="284" width="408" x="439" y="545" as="geometry" />
         </mxCell>
         <mxCell id="xyFB7iPGODjObc33V6Cf-103" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B0E3E6;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;&quot;&gt;行为&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;提交同意&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;提交驳回&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="73" width="184" x="80.5" y="623" as="geometry" />
+          <mxGeometry height="73" width="184" x="77" y="663" as="geometry" />
         </mxCell>
         <mxCell id="xyFB7iPGODjObc33V6Cf-104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;状态&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;待处理：&lt;font color=&quot;#006600&quot;&gt;PENDING&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;待修改：&lt;font style=&quot;color: rgb(0, 102, 0);&quot;&gt;MODIFY&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;已归档:&lt;font style=&quot;color: rgb(0, 102, 0);&quot;&gt;FINSHED&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="85" width="185" x="80.5" y="720" as="geometry" />
+          <mxGeometry height="85" width="185" x="77" y="760" as="geometry" />
         </mxCell>
         <mxCell id="xyFB7iPGODjObc33V6Cf-105" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;&quot;&gt;流程&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;派单：&lt;font style=&quot;color: rgb(0, 76, 153);&quot;&gt;ASSIGN&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;处置：&lt;font style=&quot;color: rgb(0, 76, 153);&quot;&gt;DISPOSE&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;审批：&lt;font style=&quot;color: rgb(0, 76, 153);&quot;&gt;APPROVE&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="84" width="184" x="81.5" y="505" as="geometry" />
+          <mxGeometry height="84" width="184" x="78" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="xyFB7iPGODjObc33V6Cf-106" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="流程权限表" vertex="1">
+          <mxGeometry height="30" width="93" x="596.5" y="501" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
