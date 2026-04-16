@@ -113,7 +113,7 @@
         <mxCell id="nW7lsf4d3pr2lEU-PoW3-14" edge="1" parent="1" source="nW7lsf4d3pr2lEU-PoW3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.389;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;" target="mxyCE6AyKLq4703zu0Wb-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nW7lsf4d3pr2lEU-PoW3-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#314354;fillColor=#647687;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="views\alarm\alarmWorkOrder\component\&lt;font style=&quot;color: rgb(102, 255, 102);&quot;&gt;detailDialogInAlarmSourceField&lt;/font&gt;\index.vue" vertex="1">
+        <mxCell id="nW7lsf4d3pr2lEU-PoW3-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#314354;fillColor=#647687;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="views\alarm\alarmWorkOrder\&lt;font style=&quot;color: light-dark(rgb(0, 204, 204), rgb(51, 153, 255));&quot;&gt;component&lt;/font&gt;\&lt;font style=&quot;color: rgb(102, 255, 102);&quot;&gt;detailDialogInAlarmSourceField&lt;/font&gt;\index.vue" vertex="1">
           <mxGeometry height="30" width="460" x="330" y="209" as="geometry" />
         </mxCell>
         <mxCell id="nW7lsf4d3pr2lEU-PoW3-15" edge="1" parent="1" source="nW7lsf4d3pr2lEU-PoW3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" target="mxyCE6AyKLq4703zu0Wb-46">
@@ -124,16 +124,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nW7lsf4d3pr2lEU-PoW3-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#314354;fillColor=#647687;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="views\alarm\alarmWorkOrder\component\detailDialog.vue" vertex="1">
+        <mxCell id="nW7lsf4d3pr2lEU-PoW3-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#314354;fillColor=#647687;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="views\alarm\alarmWorkOrder\&lt;font style=&quot;color: light-dark(rgb(0, 204, 204), rgb(51, 153, 255));&quot;&gt;component&lt;/font&gt;\detailDialog.vue" vertex="1">
           <mxGeometry height="30" width="320" x="40" y="79" as="geometry" />
         </mxCell>
-        <mxCell id="nW7lsf4d3pr2lEU-PoW3-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#314354;fillColor=#647687;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="views\alarm\alarmWorkOrder\component\detailDialogInProcessHistory\index.vue" vertex="1">
-          <mxGeometry height="30" width="450" x="390" y="769" as="geometry" />
+        <mxCell id="nW7lsf4d3pr2lEU-PoW3-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#314354;fillColor=#647687;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="views\alarm\alarmWorkOrder\&lt;font style=&quot;color: light-dark(rgb(0, 204, 204), rgb(51, 153, 255));&quot;&gt;component&lt;/font&gt;\&lt;font style=&quot;color: light-dark(rgb(255, 255, 0), rgb(51, 153, 255));&quot;&gt;detailDialogInProcessHistory&lt;/font&gt;\index.vue" vertex="1">
+          <mxGeometry height="31" width="450" x="390" y="769" as="geometry" />
         </mxCell>
         <mxCell id="nW7lsf4d3pr2lEU-PoW3-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
           <mxGeometry height="30" width="60" x="100" y="379" as="geometry" />
         </mxCell>
-        <mxCell id="nW7lsf4d3pr2lEU-PoW3-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#314354;fillColor=#647687;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="views\alarm\alarmWorkOrder\component\&lt;font style=&quot;color: light-dark(rgb(102, 255, 102), rgb(0, 162, 0));&quot;&gt;detailDialogInAlarmSourceField&lt;/font&gt;\RegulationMeteringCabinetField.vue" vertex="1">
+        <mxCell id="nW7lsf4d3pr2lEU-PoW3-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#314354;fillColor=#647687;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="views\alarm\alarmWorkOrder\&lt;font style=&quot;color: light-dark(rgb(0, 204, 204), rgb(51, 153, 255));&quot;&gt;component&lt;/font&gt;\&lt;font style=&quot;color: light-dark(rgb(102, 255, 102), rgb(0, 162, 0));&quot;&gt;detailDialogInAlarmSourceField&lt;/font&gt;\RegulationMeteringCabinetField.vue" vertex="1">
           <mxGeometry height="30" width="620" x="540" y="40" as="geometry" />
         </mxCell>
       </root>
