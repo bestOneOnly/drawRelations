@@ -79,7 +79,7 @@
         <mxCell id="PJXPfSZ0iXjS1Ze4oZKC-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#56517e;fillColor=#d0cee2;align=center;verticalAlign=middle;rounded=1;" value="间隔为周" vertex="1">
           <mxGeometry height="30" width="75" x="52.25" y="259" as="geometry" />
         </mxCell>
-        <mxCell id="Tb4SsycBVateb9rBvSXo-24" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;查询时间间隔的计算值&lt;/b&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="Tb4SsycBVateb9rBvSXo-24" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;查询时间间隔的计算值，多指间隔内累计值&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;color: rgb(150, 150, 150);&quot;&gt;（计算数量，累计数值）&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="52" width="786" x="20" y="14" as="geometry" />
         </mxCell>
         <mxCell id="wYRMB9Bcyb8ahxmvQOPX-1" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;rotation=90;fontSize=12;strokeWidth=3;perimeterSpacing=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
