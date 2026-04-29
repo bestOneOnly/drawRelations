@@ -11,28 +11,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VwiOfHA58wL704y9ro_u-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.调用老妈接口完成买菜做菜功能，&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2.自己在碗架拿碗&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;3.盛米饭&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;4.吃饭&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;5.调用老妈接口刷碗&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;" vertex="1">
-          <mxGeometry height="120" width="320" x="270" y="220" as="geometry" />
+          <mxGeometry height="120" width="320" x="270" y="260" as="geometry" />
         </mxCell>
         <mxCell id="VwiOfHA58wL704y9ro_u-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;老妈去买菜，&lt;br&gt;老妈做菜&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="680" y="100" as="geometry" />
+          <mxGeometry height="60" width="120" x="680" y="140" as="geometry" />
         </mxCell>
         <mxCell id="VwiOfHA58wL704y9ro_u-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="主体内容" vertex="1">
-          <mxGeometry height="30" width="75" x="395" y="160" as="geometry" />
+          <mxGeometry height="30" width="75" x="395" y="200" as="geometry" />
         </mxCell>
         <mxCell id="VwiOfHA58wL704y9ro_u-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;老妈刷碗&lt;br&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="680" y="410" as="geometry" />
+          <mxGeometry height="60" width="120" x="680" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="VwiOfHA58wL704y9ro_u-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;rounded=0;" value="晚饭过程" vertex="1">
-          <mxGeometry height="50" width="260" x="300" y="40" as="geometry" />
+        <mxCell id="VwiOfHA58wL704y9ro_u-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="晚饭过程" vertex="1">
+          <mxGeometry height="50" width="260" x="300" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="VwiOfHA58wL704y9ro_u-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;我们可以看到，当前调用了一个接口完成了买菜，做饭的方法，在主体内容中，本人做了【2,3,4】3个具体的动作。&lt;br&gt;&lt;br&gt;当前的问题：&lt;br&gt;1.买菜，做菜，不是一个事情，应当拆分成2个函数&lt;br&gt;2.调用的接口代表一个具体事情的过程，但是【2,3,4】在做一个过程的具体事情，所以【2,3,4】应当单独提取出一个方法，保持跟当前主体内容同一个层级&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;&quot;&gt;3.虽然需求没有明说，但是如果不是老妈买菜，是老爸买菜，那么函数名是否要从原来的 Buy&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;VegetablesByMother 改成&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;&quot;&gt;Buy&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VegetablesByParent&lt;br&gt;&lt;/span&gt;所以，取名时，要想一下，一个好的名字，应当不会引发误解而且可以让人快速了解方法在做什么&lt;br&gt;如果当时确实没考虑到，后面需求更新后，应当及时修改方法名&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="230" width="800" x="185" y="520" as="geometry" />
+        <mxCell id="VwiOfHA58wL704y9ro_u-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;总结：&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;我们可以看到，当前调用了一个接口完成了买菜，做饭的方法，在主体内容中，本人做了【2,3,4】3个具体的动作。&lt;br&gt;&lt;br&gt;当前的问题：&lt;br&gt;1.买菜，做菜，不是一个事情，应当拆分成2个函数&lt;br&gt;2.调用的接口代表一个具体事情的过程，但是【2,3,4】在做一个过程的具体事情，所以【2,3,4】应当单独提取出一个方法，保持跟当前主体内容同一个层级&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;&quot;&gt;3.虽然需求没有明说，但是如果不是老妈买菜，是老爸买菜，那么函数名是否要从原来的 Buy&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;VegetablesByMother 改成&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;&quot;&gt;Buy&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VegetablesByParent&lt;br&gt;&lt;/span&gt;所以，取名时，要想一下，一个好的名字，应当不会引发误解而且可以让人快速了解方法在做什么&lt;br&gt;如果当时确实没考虑到，后面需求更新后，应当及时修改方法名&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="905" x="110" y="520" as="geometry" />
         </mxCell>
         <mxCell id="VwiOfHA58wL704y9ro_u-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;老妈买菜做菜接口&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="149" x="460" y="115" as="geometry" />
+          <mxGeometry height="30" width="149" x="460" y="155" as="geometry" />
         </mxCell>
         <mxCell id="VwiOfHA58wL704y9ro_u-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;老妈接口&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="489" y="428" as="geometry" />
+          <mxGeometry height="30" width="120" x="489" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="VwiOfHA58wL704y9ro_u-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#23445d;fillColor=#bac8d3;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;方法保持层级一致&amp;amp;起一个好名字&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="1090" x="30" y="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
