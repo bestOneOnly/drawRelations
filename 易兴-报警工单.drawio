@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="7lVCud1js2wX0UMI-BDn">
-    <mxGraphModel dx="5106" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#C1D9EC" math="0" shadow="0">
+    <mxGraphModel dx="6544" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#C1D9EC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -195,19 +195,23 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4cd-EQ0yuCHIJgicbxab-33" parent="1" style="html=1;whiteSpace=wrap;fillColor=#647687;strokeColor=#F099EA;fontColor=#ffffff;" value="" vertex="1">
-          <mxGeometry height="1200" width="1890" x="2250" y="360" as="geometry" />
+          <mxGeometry height="1200" width="1720" x="2250" y="360" as="geometry" />
         </mxCell>
         <mxCell id="4cd-EQ0yuCHIJgicbxab-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#314354;fillColor=#647687;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;流程规则及历史功能&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 25px; color: rgb(199, 199, 199);&quot;&gt;包含流程下发及存储、查询历史&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="530" x="2985" y="235" as="geometry" />
+          <mxGeometry height="90" width="530" x="2845" y="235" as="geometry" />
         </mxCell>
         <mxCell id="4cd-EQ0yuCHIJgicbxab-35" parent="1" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;缓存流程规则并根据对应名称下发&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;ProcessRuleCache&lt;/span&gt;" vertex="1">
-          <mxGeometry height="90" width="310" x="3470" y="1255" as="geometry" />
+          <mxGeometry height="90" width="310" x="3380" y="1220" as="geometry" />
         </mxCell>
         <mxCell id="4cd-EQ0yuCHIJgicbxab-36" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;ExtractProcessNameAndApplyRules/下发规则&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;//获取实现类流程名称&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ extractProcessName():String&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;//给对应实现类提供流程规则&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ applyCurrentProcessRules(Map):void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="160" width="440" x="2710" y="1240" as="geometry" />
         </mxCell>
         <mxCell id="4cd-EQ0yuCHIJgicbxab-38" edge="1" parent="1" source="4cd-EQ0yuCHIJgicbxab-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.998;entryY=0.149;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;dashed=1;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" target="4cd-EQ0yuCHIJgicbxab-36">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3310" y="1264" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="4cd-EQ0yuCHIJgicbxab-43" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;ExtractProcessAttr/采集流程信息&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;//获取业务id&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ getBussinessId():String&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;//同意还是驳回，默认同意&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ isSubmitAgree():Boolean&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;//获取业务描述&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getBusinessDesc():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="210" width="440" x="2700" y="620" as="geometry" />
@@ -239,7 +243,7 @@
             <mxPoint x="2925" y="1090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4cd-EQ0yuCHIJgicbxab-52" connectable="0" parent="4cd-EQ0yuCHIJgicbxab-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#fff2cc;labelBorderColor=#d6b656;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;保存历史信息&lt;/font&gt;" vertex="1">
+        <mxCell id="4cd-EQ0yuCHIJgicbxab-52" connectable="0" parent="4cd-EQ0yuCHIJgicbxab-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#fff2cc;labelBorderColor=#d6b656;" value="&lt;font style=&quot;font-size: 15px; line-height: 160%;&quot;&gt;保存历史信息&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0073" y="4" as="geometry">
             <mxPoint x="19" y="4" as="offset" />
           </mxGeometry>
